@@ -15,22 +15,21 @@ main {
   justify-content: space-around;
   align-items: center;
   width: 30rem;
-
+  padding-top: 1.5rem;
   box-shadow: 5px 5px 15px 1px rgb(41, 41, 41);
 }
 
 .success {
   background-color: rgb(12, 69, 255);
   color: white;
-  width: 88.8%;
+  width: 88.9%;
   height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   font-weight: 500;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 form {
@@ -61,7 +60,7 @@ p {
 }
 
 button {
-  width: 86%;
+  width: 87.5%;
   height: 3.5rem;
   background-color: rgb(54, 161, 54);
   border: transparent;
@@ -69,7 +68,7 @@ button {
   font-size: 1.2rem;
   transition: 300ms;
   cursor: pointer;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 button:hover {
