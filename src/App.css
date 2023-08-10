@@ -15,8 +15,22 @@ main {
   justify-content: space-around;
   align-items: center;
   width: 30rem;
-  height: 25rem;
+
   box-shadow: 5px 5px 15px 1px rgb(41, 41, 41);
+}
+
+.success {
+  background-color: rgb(12, 69, 255);
+  color: white;
+  width: 88.8%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 form {
@@ -35,7 +49,16 @@ input {
   background-color: rgb(240, 240, 240);
   padding-left: 1rem;
   font-size: 1.2rem;
-}background-color: ;
+} 
+
+p {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1rem;
+  color: rgb(255, 36, 36);
+  align-self: flex-start;
+  margin-left: 1.8rem;
+}
 
 button {
   width: 86%;
@@ -46,6 +69,7 @@ button {
   font-size: 1.2rem;
   transition: 300ms;
   cursor: pointer;
+  margin-bottom: 1rem;
 }
 
 button:hover {
